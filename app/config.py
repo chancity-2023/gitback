@@ -18,8 +18,8 @@ class Settings(BaseSettings):
     appwrite_database_id: str
     appwrite_collection_id: str
     
-    # CORS Configuration
-    cors_origins: str = "https://rahulj-crypto.github.io"
+    # CORS Configuration - Add your Vercel URLs here
+    cors_origins: str = "https://rahulj-crypto.github.io,https://chancity.github.io,https://chancity.vercel.app,https://chancity-admin.vercel.app"
     
     # Application Configuration
     environment: str = "production"
